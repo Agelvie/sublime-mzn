@@ -1,0 +1,23 @@
+{
+	"shell_cmd": "minizinc \"-e\" \"$file\"",
+    // "file_regex": "^(...*?):([0-9]*):?([0-9]*).*: (MiniZinc: .*)",
+    "file_regex": "^(...*?):([0-9]*):?([0-9]*).*MiniZinc: (.*)",
+    "selector": "source.mzn",
+
+	"variants":
+	[
+	{
+		"name" : "Build",
+
+	    "osx": {
+	        "cmd": ["sh", "$packages/MiniZinc/minizinc_mac.sh", "$file", "Gecode"]
+	    },
+	},
+
+	{
+		"name" : "Check Syntax",
+        "shell_cmd": "minizinc \"-e\" \"$file\" 2>&1 | tr '\n' ' ' | sed '/.*/n'"
+	}
+
+	]
+}

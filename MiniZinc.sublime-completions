@@ -1,0 +1,45 @@
+{
+   "scope": "source.mzn",
+
+   "completions":
+   [
+      { "trigger": "constraint", "contents": "constraint" },
+      { "trigger": "forall", "contents": "forall(${1:index} in ${2:range})(${3});" },
+      { "trigger": "sum", "contents": "sum(${1:index} in ${2:range})(${3});" },
+      { "trigger": "array", "contents": "array [${1:size}] of ${2:var} ${3:type} = ${4:name};" },
+      { "trigger": "var", "contents": "var ${1:type} : ${2:name};" },
+      { "trigger": "solve", "contents": "solve" },
+      { "trigger": "minimize", "contents": "minimize" },
+      { "trigger": "maximize", "contents": "maximize" },
+      { "trigger": "satisfy", "contents": "satisfy" },
+      { "trigger": "exists", "contents": "exists" },
+      { "trigger": "if", "contents": "if ${1} then ${2} else ${3} endif" },
+      { "trigger": "output", "contents": "output [${1}];" },
+      { "trigger": "and", "contents": "/\\" },
+      { "trigger": "or", "contents": "\\/" },
+
+
+      // { "trigger": "constraint\tconstraint", "contents": "constraint" },
+      // { "trigger": "forall\tforall statement", "contents": "forall(${1:index} in ${2:range})(${3});" },
+      // { "trigger": "array\tarray", "contents": "array [${1:size}] of ${2:var} ${3:type} = ${4:name};" },
+      // { "trigger": "var\tvar", "contents": "var ${1:type} : ${2:name};" },
+      // { "trigger": "solve\tsolve", "contents": "solve" },
+      // { "trigger": "minimize\tminimize", "contents": "minimize" },
+      // { "trigger": "maximize\tmaximize", "contents": "maximize" },
+      // { "trigger": "satisfy\tsatisfy", "contents": "satisfy" },
+      // { "trigger": "if\tif statement", "contents": "if ${1} then ${2} else ${3} endif" },
+      // { "trigger": "output\toutput", "contents": "output [${1}];" },
+      // { "trigger": "and\t/\\", "contents": "/\\" },
+      // { "trigger": "or \\/", "contents": "\\/" },
+
+      // predicate 〈pred-name〉 ( 〈arg-def〉, . . . , 〈arg-def〉 ) = 〈bool-exp〉
+      // assert ( 〈bool-exp〉, 〈string-exp〉, 〈exp〉 )
+      // test 〈pred-name〉 ( 〈arg-def〉, . . . , 〈arg-def〉 ) = 〈bool-exp〉
+      // function 〈ret-type〉 : 〈func-name〉 ( 〈arg-def〉, . . . , 〈arg-def〉 ) = 〈exp〉
+      
+      // { "trigger": "\t", "contents": "" },
+
+      // { "trigger": "abbr\t<abbr>", "contents": "<abbr>$0</abbr>" },
+      // { "trigger": "acronym", "contents": "<acronym>$0</acronym>" }
+   ]
+}
