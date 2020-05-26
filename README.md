@@ -6,7 +6,7 @@ Syntax highlighting for the MiniZinc modelling language (.mzn and .dzn files). H
 
 ![alt text](https://cloud.githubusercontent.com/assets/7506161/12205420/d04a3d8e-b63a-11e5-8a3e-60238f1f700b.png "MZN with Neon color scheme")
 
-![alt text](https://user-images.githubusercontent.com/22230071/82848522-d523ee80-9ec1-11ea-9a9a-0ccf3cf8de3f.png "MZN with Syntax Check and Pompideu Color scheme")
+![alt text](https://user-images.githubusercontent.com/22230071/82848793-17016480-9ec3-11ea-96d7-022206c9ede4.png "MZN with Syntax Check and Pompideu Color scheme")
 
 ## Installation
 
