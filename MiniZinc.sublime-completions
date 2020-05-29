@@ -6,7 +6,7 @@
       { "trigger": "constraint", "contents": "constraint" },
       { "trigger": "forall", "contents": "forall(${1:index} in ${2:range})(${3});" },
       { "trigger": "sum", "contents": "sum(${1:index} in ${2:range})(${3});" },
-      { "trigger": "array", "contents": "array [${1:size}] of ${2:var} ${3:type} = ${4:name};" },
+      { "trigger": "array", "contents": "array [${1:size}] of ${2:var} ${3:type} : ${4:name};" },
       { "trigger": "var", "contents": "var ${1:type} : ${2:name};" },
       { "trigger": "solve", "contents": "solve" },
       { "trigger": "minimize", "contents": "minimize" },
@@ -17,6 +17,9 @@
       { "trigger": "output", "contents": "output [${1}];" },
       { "trigger": "and", "contents": "/\\" },
       { "trigger": "or", "contents": "\\/" },
+      // { "trigger": "int", "contents": "int : ${1}" },
+      // { "trigger": "float", "contents": "float : ${1}" },
+      { "trigger": "show", "contents": "show(${1})" }
 
 
       // { "trigger": "constraint\tconstraint", "contents": "constraint" },
