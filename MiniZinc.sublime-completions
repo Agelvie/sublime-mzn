@@ -4,10 +4,10 @@
    "completions":
    [
       { "trigger": "constraint", "contents": "constraint" },
-      { "trigger": "forall", "contents": "forall(${1:index} in ${2:range})(${3});" },
-      { "trigger": "sum", "contents": "sum(${1:index} in ${2:range})(${3});" },
-      { "trigger": "array", "contents": "array [${1:size}] of ${2:var} ${3:type} : ${4:name};" },
-      { "trigger": "var", "contents": "var ${1:type} : ${2:name};" },
+      { "trigger": "forall", "contents": "forall(${1:index} in ${2:range})(${3})" },
+      { "trigger": "sum", "contents": "sum(${1:index} in ${2:range})(${3})" },
+      { "trigger": "array", "contents": "array [${1:size}] of ${2:var} ${3:type} : ${4:name}" },
+      { "trigger": "var", "contents": "var ${1:type} : ${2:name}" },
       { "trigger": "solve", "contents": "solve" },
       { "trigger": "minimize", "contents": "minimize" },
       { "trigger": "maximize", "contents": "maximize" },
@@ -20,7 +20,8 @@
       // { "trigger": "int", "contents": "int : ${1}" },
       // { "trigger": "float", "contents": "float : ${1}" },
       { "trigger": "show", "contents": "show(${1})" }
-
+      { "trigger": "ann", "contents": "ann : ${1}" }
+      { "trigger": "enum", "contents": "enum : ${1} = {${2}}" }
 
       // { "trigger": "constraint\tconstraint", "contents": "constraint" },
       // { "trigger": "forall\tforall statement", "contents": "forall(${1:index} in ${2:range})(${3});" },
