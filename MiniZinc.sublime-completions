@@ -17,11 +17,11 @@
       { "trigger": "output", "contents": "output [${1}];" },
       { "trigger": "and", "contents": "/\\" },
       { "trigger": "or", "contents": "\\/" },
+      { "trigger": "show", "contents": "show(${1})" },
+      { "trigger": "ann", "contents": "ann : ${1}" },
+      { "trigger": "enum", "contents": "enum ${1:name} = {${2:values}}" }
       // { "trigger": "int", "contents": "int : ${1}" },
       // { "trigger": "float", "contents": "float : ${1}" },
-      { "trigger": "show", "contents": "show(${1})" }
-      { "trigger": "ann", "contents": "ann : ${1}" }
-      { "trigger": "enum", "contents": "enum : ${1} = {${2}}" }
 
       // { "trigger": "constraint\tconstraint", "contents": "constraint" },
       // { "trigger": "forall\tforall statement", "contents": "forall(${1:index} in ${2:range})(${3});" },
