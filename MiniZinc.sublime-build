@@ -12,9 +12,7 @@
 	{
 		"name" : "Build",
 
-	    "osx": {
-	        "cmd": ["sh", "$packages/MiniZinc/minizinc_mac.sh", "$file", "Gecode"]
-	    },
+		"shell_cmd": "minizinc \"$file\"",
 	},
 
 	{
